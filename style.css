@@ -1,10 +1,6 @@
 htm{background-color: brown;
 }
-body{
-    min-height: 100vh;
-    position: relative;
-    margin: 0;
-}
+
 header{
     background-color: rgba(81, 92, 109, 0.916);
     padding:5px;}
