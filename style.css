@@ -1,0 +1,68 @@
+htm{background-color: brown;
+}
+body{
+    min-height: 100vh;
+    position: relative;
+    margin: 0;
+}
+header{
+    background-color: rgba(81, 92, 109, 0.916);
+    padding:5px;}
+h1{
+    text-align: center; 
+    color:white; 
+    font-weight: 200px;
+    font-family: Verdana;
+    font-size: 200%;}
+
+nav a{
+    color: white;
+    margin: 20px;
+}
+#facebook{margin-left: 1000px;
+    
+}
+.container{
+    display: flex;
+    column-gap: 5px;
+    padding-bottom: 20px;
+    margin-top: 0;
+}
+.user1{ 
+    background-color: rgba(151, 187, 241, 0.916);
+    width: 500px; 
+    height: 390px;
+    padding:25px;
+    margin-top:10px; 
+    margin-left:5px; 
+    line-height: 30px; 
+    text-align: justify;
+    line-height: 27px;
+    overflow: auto;
+    display:inline-block;}
+.bidhaa{
+    background-color: rgba(151, 187, 241, 0.916);
+    width: 500px; 
+    height: 390px;
+    padding:25px;
+    margin-top: 10px; 
+    line-height: 27px; 
+    text-align: justify;
+    overflow: auto;
+    display:inline-block;}
+.huduma{ 
+    background-color: rgba(151, 187, 241, 0.916);
+    width: 510px; 
+    height: 390px;
+    padding:25px;
+    margin-top: 10px; 
+    margin-right: 5px;
+    line-height: 27px;
+    text-align: justify;
+    overflow: auto;
+    display: inline-block;}
+.produts{
+    background-color: cadetblue;
+}
+
+
