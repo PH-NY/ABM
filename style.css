@@ -1,0 +1,69 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: url(img/background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+header{
+    padding: 5px;
+    margin-top: 0;
+    background-color: rgb(8, 103, 103);
+    position: fixed;
+    width: 100%;
+}
+header >p{
+    font-size: 250%;
+    color: white;
+}
+header > a{
+    color: white;
+    margin-right: 30px;
+    width: 100%;
+    font-size: 130%;
+    padding:relative;
+}
+img {
+    width: 34%;
+    height: auto;
+    border-radius: 0.5%;
+    margin-left: 0.2%;
+    margin-top: 180px;
+    margin-bottom: 30px;
+    border: solid black;   
+}
+.second >img{
+   width: 34%;
+    height: auto;
+    border-radius: 0.5%;
+    margin-left: 0.2%;
+    margin-top: 180px;
+    margin-bottom: 30px;
+    border: solid black;
+    margin-top: 30px; 
+}
+.second> p2, p1{
+    width: 34%;
+    display: block;
+    text-align: justify;
+    font-size: 120%;
+    color: white;
+    margin-left:0.2%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-bottom: 2px;
+}
+.services{
+    width: 34%;
+    display: block;
+    text-align: justify;
+    font-size: 120%;
+    color: white;
+    margin-left:0.2%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-bottom: 2px;
+}
+
