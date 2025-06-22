@@ -49,8 +49,7 @@ img {
 .second> p2, p1{
     width: 34%;
     display: block;
-    text-align: justify;
-    font-size: 120%;
+    font-size: 15PX;
     color: white;
     margin-left:0.2%;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -59,7 +58,6 @@ img {
 .services{
     width: 34%;
     display: block;
-    text-align: justify;
     font-size: 120%;
     color: white;
     margin-left:0.2%;
