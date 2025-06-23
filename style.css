@@ -3,17 +3,12 @@ html, body {
     padding: 0;
 }
 body{
-    background-image: url(img/background.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-attachment: fixed;
+    background-color: beige;
 }
-
 header{
     padding: 5px;
     margin-top: 0;
-    background-color: rgb(8, 103, 103);
-    position: fixed;
+    background-color: rgb(1, 149, 149);
     width: 100%;
 }
 header >p{
@@ -28,41 +23,12 @@ header > a{
     width: 100%;
     font-size: 130%;
 }
-img {
-    width: 34%;
+.first{
+    box-sizing: border-box;
+    text-overflow: auto;
     height: auto;
-    border-radius: 0.5%;
-    margin-left: 2%;
-    margin-top: 180px;
-    margin-bottom: 30px;
-    border: solid black;   
+    width: 40%;
+    color:rgb(16, 14, 14);
+    display: grid;
+    background-color:blanchedalmond;
 }
-.second >img{
-   width: 34%;
-    height: auto;
-    border-radius: 0.5%;
-    margin-left:2%;
-    margin-top: 180px;
-    margin-bottom: 30px;
-    border: solid black;
-    margin-top: 30px; 
-}
-.second> p2, p1{
-    width: 34%;
-    display: block;
-    font-size: 15PX;
-    color: white;
-    margin-left:2%;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    margin-bottom: 2px;
-}
-.services{
-    width: 34%;
-    display: block;
-    font-size: 120%;
-    color: white;
-    margin-left:2%;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    margin-bottom: 2px;
-}
-
