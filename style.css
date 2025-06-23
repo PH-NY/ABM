@@ -5,42 +5,58 @@ html, body {
 body{
     background-color: beige;
 }
-header{
-    padding: 5px;
+#address{
+    padding:0.05%;
     margin-top: 0;
+    margin-bottom: 3%;
     background-color: rgb(1, 149, 149);
     width: 100%;
+    position: fixed;
 }
-header >p{
-    font-size: 250%;
+#address >p{
     color: white;
-    margin-left: 90px;
+    font-size: 2vw;
+    margin-left: 3%;
 }
-header > a{
+#address >a{
     color: white;
-    margin-right: 30px;
-    margin-left: 50px;
-    width: 100%;
-    font-size: 130%;
+    font-size: 1.5vw;
+    margin-right: 3%;
+    margin-left: 3%;
+
 }
 .container{
     display:flex;
     column-gap: 2%;
+    
 }
 .first{
-    box-sizing: border-box;
-    text-overflow: auto;
     height: auto;
-    width: 40%;
+    max-width: 30%;
     color:rgb(16, 14, 14);
-    display: grid;
-    background-color:blanchedalmond;
+    margin-left: 3%;
+    margin-top: 10%;
+    display: flexbox;
+}
+#introduction{
+    font-size: 1.5vw;
+    line-height:170%;
+    text-align: justify;  
+}
+#huduma >p{
+  font-size: 3vw; 
+  margin-bottom: 3%; 
+}
+#huduma >ul{
+    margin-top: 1%;
 }
 .second{
-    background-color: brown;
     height: auto;
-    width: 50%;
+    max-width:70%;
     padding: 60px;
-    
-
+    display:flexbox;
+}
+.second >img {
+    max-width: 100%;
+    height: auto;
 }
