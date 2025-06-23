@@ -23,6 +23,10 @@ header > a{
     width: 100%;
     font-size: 130%;
 }
+.container{
+    display:flex;
+    column-gap: 2%;
+}
 .first{
     box-sizing: border-box;
     text-overflow: auto;
@@ -31,4 +35,12 @@ header > a{
     color:rgb(16, 14, 14);
     display: grid;
     background-color:blanchedalmond;
+}
+.second{
+    background-color: brown;
+    height: auto;
+    width: 50%;
+    padding: 60px;
+    
+
 }
