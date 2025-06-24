@@ -1,62 +1,24 @@
-html, body {
-    margin: 0;
-    padding: 0;
+*{
+    margin :0;
+    font-family: sans-serif;
 }
-body{
-    background-color: beige;
+header{
+    background-image: url(img/background.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    height: 100vh;
 }
-#address{
-    padding:0.05%;
-    margin-top: 0;
-    margin-bottom: 3%;
-    background-color: rgb(1, 149, 149);
-    width: 100%;
-    position: fixed;
-}
-#address >p{
+#address> p{
+    font-size: 3vw;
     color: white;
-    font-size: 2vw;
-    margin-left: 3%;
+    padding-top: 2%;
+    margin-left: 2%;
+    margin-bottom: 2%;
+    font-weight: 120%;
 }
-#address >a{
+#address> a{
+    font-size: 1.2vw;
     color: white;
-    font-size: 1.5vw;
-    margin-right: 3%;
-    margin-left: 3%;
-
-}
-.container{
-    display:flex;
-    column-gap: 2%;
-    
-}
-.first{
-    height: auto;
-    max-width: 30%;
-    color:rgb(16, 14, 14);
-    margin-left: 3%;
-    margin-top: 10%;
-    display: flexbox;
-}
-#introduction{
-    font-size: 1.5vw;
-    line-height:170%;
-    text-align: justify;  
-}
-#huduma >p{
-  font-size: 3vw; 
-  margin-bottom: 3%; 
-}
-#huduma >ul{
-    margin-top: 1%;
-}
-.second{
-    height: auto;
-    max-width:70%;
-    padding: 60px;
-    display:flexbox;
-}
-.second >img {
-    max-width: 100%;
-    height: auto;
+    margin-left: 2%;
 }
